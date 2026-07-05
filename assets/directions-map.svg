@@ -4,6 +4,7 @@
     <marker id="ahG" markerUnits="userSpaceOnUse" markerWidth="32" markerHeight="32" refX="19" refY="15" orient="auto"><path d="M3,3 L28,15 L3,27 L11,15 z" fill="#1f9d55"/></marker>
     <marker id="ahT" markerUnits="userSpaceOnUse" markerWidth="32" markerHeight="32" refX="19" refY="15" orient="auto"><path d="M3,3 L28,15 L3,27 L11,15 z" fill="#0e7f95"/></marker>
     <linearGradient id="mgold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#f6941d"/></linearGradient>
+    <linearGradient id="mred" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0554f"/><stop offset="1" stop-color="#c62828"/></linearGradient>
   </defs>
 
   <rect width="960" height="660" rx="20" fill="#fbf1d8"/>
@@ -64,9 +65,9 @@
   <!-- SHOP marker (left, below MKK, west of Park) -->
   <g transform="translate(292 344)">
     <ellipse cx="0" cy="70" rx="60" ry="12" fill="#000" opacity="0.14"/>
-    <path d="M0 78 C -34 34, -46 20, -46 -6 A 46 46 0 1 1 46 -6 C 46 20 34 34 0 78 Z" fill="url(#mgold)" stroke="#b5761f" stroke-width="3"/>
-    <circle cx="0" cy="-8" r="30" fill="#4a1010"/>
-    <path d="M0 -30 l7 15 16 2 -12 12 3 16 -14 -8 -14 8 3 -16 -12 -12 16 -2 z" fill="#ffd447"/>
+    <path d="M0 78 C -34 34, -46 20, -46 -6 A 46 46 0 1 1 46 -6 C 46 20 34 34 0 78 Z" fill="url(#mred)" stroke="#8e1c1c" stroke-width="3"/>
+    <circle cx="0" cy="-8" r="30" fill="#ffffff"/>
+    <path d="M0 -30 l7 15 16 2 -12 12 3 16 -14 -8 -14 8 3 -16 -12 -12 16 -2 z" fill="#c62828"/>
   </g>
   <g transform="translate(166 250)">
     <rect x="0" y="0" width="256" height="60" rx="14" fill="#4a1010"/>
