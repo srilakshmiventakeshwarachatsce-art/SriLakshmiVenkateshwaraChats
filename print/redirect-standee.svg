@@ -20,11 +20,67 @@
   <rect width="1200" height="2400" fill="url(#bg2)"/>
   <rect x="34" y="34" width="1132" height="2332" fill="none" stroke="url(#gold2)" stroke-width="6" rx="26"/>
 
-  <!-- Brand strip -->
-  <text x="600" y="150" text-anchor="middle" font-size="62" fill="#fff6e6" letter-spacing="1">SRI LAKSHMI VENKATESHWARA</text>
-  <rect x="350" y="178" width="500" height="66" rx="33" fill="url(#gold2)"/>
-  <text x="600" y="225" text-anchor="middle" font-size="38" fill="#123a1a" letter-spacing="4">CHATS CENTRE</text>
-  <text x="600" y="292" text-anchor="middle" font-size="34" fill="#ffcf6b" font-family="'Noto Sans Kannada','Kannada Sangam MN',sans-serif">ಶ್ರೀ ಲಕ್ಷ್ಮೀ ವೆಂಕಟೇಶ್ವರ ಚಾಟ್ಸ್ ಸೆಂಟರ್</text>
+  <!-- Brand strip (emblem logo) -->
+  <svg xmlns="http://www.w3.org/2000/svg" x="450" y="24" width="300" height="300" viewBox="0 0 600 600" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif">
+  <!-- ===== SRI LAKSHMI VENKATESHWARA CHATS CENTRE — Emblem logo ===== -->
+  <defs>
+    <linearGradient id="lg-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#f6941d"/>
+    </linearGradient>
+    <linearGradient id="lg-leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f9e3f"/><stop offset="1" stop-color="#237a23"/>
+    </linearGradient>
+    <radialGradient id="lg-field" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#6a1a18"/><stop offset="1" stop-color="#4a1010"/>
+    </radialGradient>
+    <path id="arcTop" d="M 42,300 A 258,258 0 0 1 558,300" fill="none"/>
+    <path id="arcBot" d="M 42,300 A 258,258 0 0 0 558,300" fill="none"/>
+  </defs>
+
+  <!-- Seal rings -->
+  <circle cx="300" cy="300" r="298" fill="#360a0a"/>
+  <circle cx="300" cy="300" r="290" fill="#4a1010"/>
+  <circle cx="300" cy="300" r="292" fill="none" stroke="url(#lg-gold)" stroke-width="5"/>
+  <circle cx="300" cy="300" r="232" fill="url(#lg-field)"/>
+  <circle cx="300" cy="300" r="232" fill="none" stroke="url(#lg-gold)" stroke-width="4"/>
+  <circle cx="300" cy="300" r="222" fill="none" stroke="#ffb627" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <!-- Curved text -->
+  <text fill="url(#lg-gold)" font-size="35" letter-spacing="2" font-weight="800">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">SRI LAKSHMI VENKATESHWARA</textPath>
+  </text>
+  <text fill="#ffd447" font-size="29" letter-spacing="3" font-family="'Trebuchet MS',Arial,sans-serif">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">MARIYAPPANA PALYA · BENGALURU</textPath>
+  </text>
+
+  <!-- Side separators -->
+  <g fill="url(#lg-gold)">
+    <path d="M 300,44 l 10,10 -10,10 -10,-10 z" transform="translate(-256,246)"/>
+    <path d="M 300,44 l 10,10 -10,10 -10,-10 z" transform="translate(256,246)"/>
+  </g>
+
+  <!-- Center mark: tilak + leaf plate with pani puris -->
+  <text x="300" y="168" text-anchor="middle" font-size="30" fill="#ffd447" font-family="'Noto Sans Kannada','Kannada Sangam MN',sans-serif">ಶ್ರೀ</text>
+
+  <g transform="translate(300 292)">
+    <ellipse cx="0" cy="46" rx="120" ry="20" fill="#000" opacity="0.22"/>
+    <ellipse cx="0" cy="24" rx="126" ry="46" fill="url(#lg-leaf)"/>
+    <ellipse cx="0" cy="24" rx="126" ry="46" fill="none" stroke="#1c5c1c" stroke-width="3"/>
+    <g stroke="#b5761f" stroke-width="3">
+      <g transform="translate(-72 6)"><circle r="34" fill="#e7a54e"/><ellipse cx="-10" cy="-12" rx="10" ry="6" fill="#ffe0a3" stroke="none"/><circle cx="0" cy="-34" r="8" fill="#2f9e44" stroke="none"/></g>
+      <g transform="translate(0 -6)"><circle r="40" fill="#eaa94f"/><ellipse cx="-12" cy="-14" rx="12" ry="7" fill="#ffe0a3" stroke="none"/><circle cx="0" cy="-40" r="9" fill="#e63914" stroke="none"/></g>
+      <g transform="translate(72 6)"><circle r="34" fill="#e7a54e"/><ellipse cx="-10" cy="-12" rx="10" ry="6" fill="#ffe0a3" stroke="none"/><circle cx="0" cy="-34" r="8" fill="#2f9e44" stroke="none"/></g>
+    </g>
+    <circle cx="-40" cy="44" r="4" fill="#ffd447"/><circle cx="26" cy="48" r="4" fill="#e63914"/><circle cx="56" cy="44" r="4" fill="#2f9e44"/>
+  </g>
+
+  <!-- Ribbon -->
+  <g transform="translate(300 392)">
+    <rect x="-150" y="0" width="300" height="52" rx="26" fill="url(#lg-gold)"/>
+    <text x="0" y="35" text-anchor="middle" font-size="28" fill="#4a1010" letter-spacing="2" font-weight="800">CHATS CENTRE</text>
+  </g>
+  <text x="300" y="470" text-anchor="middle" font-size="24" fill="#ffcf6b" font-family="'Trebuchet MS',Arial,sans-serif" letter-spacing="2">Fresh &amp; Tasty Chaats</text>
+</svg>
 
   <line x1="140" y1="340" x2="1060" y2="340" stroke="#ffb627" stroke-width="3" stroke-opacity="0.5"/>
 
