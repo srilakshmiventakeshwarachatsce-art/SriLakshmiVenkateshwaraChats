@@ -85,7 +85,7 @@
 
   <!-- Directions map -->
   <rect x="146" y="778" width="908" height="629" rx="16" fill="none" stroke="url(#gold2)" stroke-width="5"/>
-  <svg x="150" y="783" width="900" height="619" viewBox="0 0 960 660"><!-- ===== "How to reach us" map. NORTH = up = MKK Road (top). MKK Rd -> Shop -> Sports Centre (below); Park adjacent, next road ===== -->
+  <svg x="150" y="783" width="900" height="619" viewBox="0 0 960 660"><!-- ===== "How to reach us" map — matches Google Maps. North up. MKK Rd (top); Park (right, big green); Shop (left, below MKK) ===== -->
   <defs>
     <marker id="ahG" markerUnits="userSpaceOnUse" markerWidth="32" markerHeight="32" refX="19" refY="15" orient="auto"><path d="M3,3 L28,15 L3,27 L11,15 z" fill="#1f9d55"/></marker>
     <marker id="ahT" markerUnits="userSpaceOnUse" markerWidth="32" markerHeight="32" refX="19" refY="15" orient="auto"><path d="M3,3 L28,15 L3,27 L11,15 z" fill="#0e7f95"/></marker>
@@ -95,61 +95,64 @@
   <rect width="960" height="660" rx="20" fill="#fbf1d8"/>
 
   <!-- Compass -->
-  <g transform="translate(892 60)"><circle r="26" fill="#fff" stroke="#c8ad72" stroke-width="2"/><path d="M0 -18 L7 4 L0 -2 L-7 4 Z" fill="#c0341d"/><text x="0" y="22" text-anchor="middle" font-size="13" font-weight="800" fill="#7a5a1e">N</text></g>
+  <g transform="translate(70 66)"><circle r="26" fill="#fff" stroke="#c8ad72" stroke-width="2"/><path d="M0 -18 L7 4 L0 -2 L-7 4 Z" fill="#c0341d"/><text x="0" y="22" text-anchor="middle" font-size="13" font-weight="800" fill="#7a5a1e">N</text></g>
+
+  <!-- PARK (big green, right side, along MKK Rd) -->
+  <rect x="560" y="112" width="372" height="430" rx="10" fill="#bfe3b6" stroke="#8cc47f" stroke-width="2"/>
+  <text x="746" y="180" text-anchor="middle" font-size="26">🌳</text>
+  <text x="746" y="214" text-anchor="middle" font-size="21" font-weight="800" fill="#2f6a2f">Gayathri Devi</text>
+  <text x="746" y="240" text-anchor="middle" font-size="21" font-weight="800" fill="#2f6a2f">Park</text>
+  <text x="746" y="266" text-anchor="middle" font-size="14" fill="#4b7a2e">(Mariyappanapalya Park)</text>
 
   <!-- ROADS -->
   <g stroke="#c8ad72" stroke-width="2">
-    <rect x="30" y="44" width="820" height="64" fill="#e2cf9f"/>              <!-- MKK Road (top / north) -->
-    <rect x="30" y="372" width="900" height="58" fill="#e8d5a8"/>            <!-- Shop Road (shop opposite Sports Centre) -->
-    <rect x="628" y="108" width="56" height="160" fill="#e8d5a8"/>          <!-- Connector (MKK down to shop) -->
-    <rect x="252" y="250" width="56" height="180" fill="#e8d5a8"/>          <!-- Next Road (park to shop) -->
+    <rect x="30" y="44" width="900" height="60" fill="#e2cf9f"/>              <!-- MKK Rd (top / north) -->
+    <rect x="266" y="104" width="52" height="242" fill="#e8d5a8"/>          <!-- road up to MKK -->
+    <rect x="30" y="318" width="600" height="54" fill="#e8d5a8"/>            <!-- Cross road (shop <-> park) -->
   </g>
   <g stroke="#fff4d6" stroke-width="3" stroke-dasharray="18 16">
-    <line x1="30" y1="76" x2="850" y2="76"/>
-    <line x1="30" y1="401" x2="930" y2="401"/>
+    <line x1="30" y1="74" x2="930" y2="74"/>
+    <line x1="30" y1="345" x2="630" y2="345"/>
   </g>
-  <text x="440" y="86" text-anchor="middle" font-size="24" font-weight="800" fill="#7a5a1e" letter-spacing="2">MKK ROAD · ಮಹಾಕವಿ ಕುವೆಂಪು ರಸ್ತೆ</text>
+  <text x="300" y="84" text-anchor="middle" font-size="24" font-weight="800" fill="#7a5a1e" letter-spacing="1">MKK ROAD · ಮಹಾಕವಿ ಕುವೆಂಪು ರಸ್ತೆ</text>
+  <rect x="560" y="322" width="20" height="46" rx="6" fill="#fff2cf" stroke="#c8ad72"/>
+  <text x="558" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#4b7a2e">Park Main Entrance</text>
 
   <!-- SPORTS / BADMINTON CENTRE (below the shop) -->
-  <rect x="330" y="470" width="300" height="104" rx="12" fill="#e9ecf1" stroke="#b9c1cc" stroke-width="2"/>
-  <text x="480" y="508" text-anchor="middle" font-size="30">🏸</text>
-  <text x="480" y="538" text-anchor="middle" font-size="16.5" font-weight="700" fill="#3a4351">Atal Bihari Vajpayee</text>
-  <text x="480" y="558" text-anchor="middle" font-size="15" fill="#5a6472">Sports Centre</text>
+  <rect x="150" y="452" width="286" height="98" rx="12" fill="#e9ecf1" stroke="#b9c1cc" stroke-width="2"/>
+  <text x="293" y="488" text-anchor="middle" font-size="26">🏸</text>
+  <text x="293" y="514" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3a4351">Atal Bihari Vajpayee</text>
+  <text x="293" y="533" text-anchor="middle" font-size="14" fill="#5a6472">Sports Centre</text>
 
-  <!-- GAYATHRI DEVI PARK (adjacent to shop, next road) -->
-  <rect x="60" y="250" width="180" height="150" rx="12" fill="#5cba63" stroke="#2f8a3a" stroke-width="2"/>
-  <text x="150" y="312" text-anchor="middle" font-size="30">🌳</text>
-  <text x="150" y="346" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Gayathri</text>
-  <text x="150" y="368" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Devi Park</text>
-  <rect x="240" y="286" width="20" height="60" rx="6" fill="#fff2cf" stroke="#c8ad72"/>
-  <text x="286" y="272" text-anchor="middle" font-size="13" font-weight="700" fill="#4b7a2e">Main Entrance</text>
+  <!-- Sagar Hotel landmark -->
+  <g transform="translate(74 452)"><circle cx="16" cy="16" r="16" fill="#f6941d"/><text x="16" y="22" text-anchor="middle" font-size="17">🍽️</text><text x="40" y="14" font-size="15" font-weight="800" fill="#b35a10">Sagar</text><text x="40" y="31" font-size="12" fill="#8a6a2e">Hotel</text></g>
 
   <!-- ROUTE 2 (teal): from MKK Road (top) down to shop -->
-  <path d="M604 110 C 624 180, 566 244, 516 296" fill="none" stroke="#0e7f95" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 17" marker-end="url(#ahT)"/>
-  <g transform="translate(636 150)">
+  <path d="M292 106 C 292 190, 292 260, 300 320" fill="none" stroke="#0e7f95" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 17" marker-end="url(#ahT)"/>
+  <g transform="translate(330 150)">
     <rect x="0" y="0" width="214" height="54" rx="14" fill="#0e7f95"/>
     <circle cx="26" cy="27" r="15" fill="#fff"/><text x="26" y="34" text-anchor="middle" font-size="19" font-weight="800" fill="#0e7f95">2</text>
     <text x="48" y="24" font-size="16" font-weight="800" fill="#fff">From MKK Road</text>
     <text x="48" y="43" font-size="13" fill="#d8f6fb">walk ~100 m</text>
   </g>
 
-  <!-- ROUTE 1 (green): from Park -> across the next road -> to shop -->
-  <path d="M244 330 C 300 342, 362 322, 438 302" fill="none" stroke="#1f9d55" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 17" marker-end="url(#ahG)"/>
-  <g transform="translate(60 430)">
+  <!-- ROUTE 1 (green): from Park (right) along the cross road to shop -->
+  <path d="M556 344 C 480 346, 420 346, 350 346" fill="none" stroke="#1f9d55" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 17" marker-end="url(#ahG)"/>
+  <g transform="translate(610 430)">
     <rect x="0" y="0" width="196" height="54" rx="14" fill="#1f9d55"/>
     <circle cx="26" cy="27" r="15" fill="#fff"/><text x="26" y="34" text-anchor="middle" font-size="19" font-weight="800" fill="#1f9d55">1</text>
     <text x="48" y="24" font-size="16" font-weight="800" fill="#fff">From the Park</text>
     <text x="48" y="43" font-size="13" fill="#dfffe9">walk ~50 m</text>
   </g>
 
-  <!-- SHOP marker (between MKK Road and Sports Centre) -->
-  <g transform="translate(480 300)">
+  <!-- SHOP marker (left, below MKK, west of Park) -->
+  <g transform="translate(292 344)">
     <ellipse cx="0" cy="70" rx="60" ry="12" fill="#000" opacity="0.14"/>
     <path d="M0 78 C -34 34, -46 20, -46 -6 A 46 46 0 1 1 46 -6 C 46 20 34 34 0 78 Z" fill="url(#mgold)" stroke="#b5761f" stroke-width="3"/>
     <circle cx="0" cy="-8" r="30" fill="#4a1010"/>
     <path d="M0 -30 l7 15 16 2 -12 12 3 16 -14 -8 -14 8 3 -16 -12 -12 16 -2 z" fill="#ffd447"/>
   </g>
-  <g transform="translate(548 276)">
+  <g transform="translate(166 250)">
     <rect x="0" y="0" width="256" height="60" rx="14" fill="#4a1010"/>
     <text x="128" y="26" text-anchor="middle" font-size="16" font-weight="800" fill="#ffd447">★ WE ARE HERE — SLV Chats</text>
     <text x="128" y="48" text-anchor="middle" font-size="13.5" fill="#fff6e6">on your right · ಬಲಗಡೆ</text>
