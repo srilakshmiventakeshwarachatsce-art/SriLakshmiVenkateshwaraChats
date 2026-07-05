@@ -31,7 +31,7 @@
 <link rel="icon" href="assets/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preload" as="image" href="assets/hero.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" type="image/webp" fetchpriority="high">
 <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +47,7 @@
   "image": ["https://srilakshmiventakeshwarachatsce-art.github.io/SriLakshmiVenkateshwaraChats/assets/og-image.jpg","https://srilakshmiventakeshwarachatsce-art.github.io/SriLakshmiVenkateshwaraChats/assets/pani-puri.jpg","https://srilakshmiventakeshwarachatsce-art.github.io/SriLakshmiVenkateshwaraChats/assets/masala-puri.jpg","https://srilakshmiventakeshwarachatsce-art.github.io/SriLakshmiVenkateshwaraChats/assets/dahi-puri.jpg"],
   "url": "https://srilakshmiventakeshwarachatsce-art.github.io/SriLakshmiVenkateshwaraChats/",
   "telephone": "+919036379288","priceRange": "₹",
-  "address": {"@type":"PostalAddress","streetAddress":"1st G Main Road, Mariyappana Palya (opposite Atal Bihari Vajpayee Badminton Centre)","addressLocality":"Bengaluru","addressRegion":"Karnataka","addressCountry":"IN"},
+  "address": {"@type":"PostalAddress","streetAddress":"1st G Main Road, Mariyappana Palya (opposite Atal Bihari Vajpayee Badminton Centre)","addressLocality":"Bengaluru","addressRegion":"Karnataka","postalCode":"560021","addressCountry":"IN"},
   "areaServed": "Mariyappana Palya, Bengaluru",
   "geo": {"@type":"GeoCoordinates","latitude":12.997979,"longitude":77.554919},
   "hasMap": "https://www.google.com/maps/dir/?api=1&destination=12.997979,77.554919",
@@ -56,6 +56,17 @@
   "hasMenu": {"@type":"Menu","hasMenuSection":{"@type":"MenuSection","name":"Chaats","hasMenuItem":[
     {"@type":"MenuItem","name":"Pani Puri"},{"@type":"MenuItem","name":"Masala Puri"},{"@type":"MenuItem","name":"Bhel Puri"},{"@type":"MenuItem","name":"Sev Puri"},{"@type":"MenuItem","name":"Dahi Puri"},{"@type":"MenuItem","name":"Tikki Puri"},{"@type":"MenuItem","name":"Aloo Puri"},{"@type":"MenuItem","name":"Papdi Chaat"},{"@type":"MenuItem","name":"Ragda Pattice"},{"@type":"MenuItem","name":"Samosa Masala"},{"@type":"MenuItem","name":"Samosa"},{"@type":"MenuItem","name":"Crazy Masala Chaat"},{"@type":"MenuItem","name":"Tomato Chaat"}]}}
 }
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Where is Sri Lakshmi Venkateshwara Chats Centre located?","acceptedAnswer":{"@type":"Answer","text":"We are on 1st G Main Road, Mariyappana Palya, Bengaluru 560021 — opposite the Atal Bihari Vajpayee Badminton Centre and a short walk from Gayathri Devi Park, near Mahakavi Kuvempu (MKK) Road."}},
+{"@type":"Question","name":"What are your opening hours?","acceptedAnswer":{"@type":"Answer","text":"We are open every day from 4:00 PM to 10:00 PM."}},
+{"@type":"Question","name":"Do you have seating or dine-in space?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our new location has spacious seating, so you can sit back and enjoy your chaats with family and friends."}},
+{"@type":"Question","name":"What are your must-try chaats?","acceptedAnswer":{"@type":"Answer","text":"Our signatures are pani puri (gol gappa), masala puri and dahi puri. We also make bhel puri, sev puri, papdi chaat, ragda pattice, samosa masala, aloo puri, tikki puri, crazy masala chaat and tomato chaat — all made fresh to order."}},
+{"@type":"Question","name":"Is the food freshly made and vegetarian?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every plate is vegetarian and made fresh to order in a clean, hygienic setup — which is why most of our customers have been regulars for over 6 years."}},
+{"@type":"Question","name":"How can I pay? Do you accept UPI and Google Pay?","acceptedAnswer":{"@type":"Answer","text":"We accept cash, UPI and Google Pay — quick and easy."}},
+{"@type":"Question","name":"Can I order by phone or WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Yes — call or WhatsApp us on 90363 79288 to order for takeaway or to ask anything. We are a fresh dine-in and takeaway chaat spot."}}
+]}
 </script>
 <style>
   :root{
@@ -73,6 +84,7 @@
   .wrap{max-width:940px;margin:0 auto;padding:0 20px}
   a{color:inherit;text-decoration:none}
   img{max-width:100%;display:block}
+  picture{display:contents}
 
   /* gold hairline + foil text */
   .foil{background:linear-gradient(180deg,#fff0b8,#f3d27a 45%,#c9a227);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
@@ -260,7 +272,7 @@
 
       <div class="frame">
         <span class="cnr tl"></span><span class="cnr tr"></span><span class="cnr bl"></span><span class="cnr br"></span>
-        <div class="media"><img src="assets/hero.jpg" alt="Freshly made pani puri and chaats at Sri Lakshmi Venkateshwara Chats Centre, Mariyappana Palya" width="1200" height="1200" fetchpriority="high"></div>
+        <div class="media"><picture><source type="image/webp" srcset="assets/hero.webp"><img src="assets/hero.jpg" alt="Freshly made pani puri and chaats at Sri Lakshmi Venkateshwara Chats Centre, Mariyappana Palya" width="1200" height="1200" fetchpriority="high"></picture></div>
       </div>
 
       <div class="cta">
@@ -320,19 +332,19 @@
   </div>
   <p style="text-align:center;max-width:660px;margin:0 auto 22px;color:#6b4f27;font-size:15.5px;line-height:1.6">Every chaat is made fresh to order — from our signature <b>pani puri</b> and <b>masala puri</b> to <b>dahi puri</b>, <b>sev puri</b>, <b>papdi chaat</b>, <b>ragda pattice</b>, <b>samosa masala</b> and <b>crazy masala chaat</b>. Here's what's on the menu.</p>
   <div class="menu-grid">
-    <figure class="dish reveal"><span class="sig">★ Signature</span><img src="assets/pani-puri.jpg" alt="Pani Puri" width="820" height="820" loading="lazy"><figcaption><b>Pani Puri</b><span class="kn">ಪಾನಿ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><span class="sig">★ Signature</span><img src="assets/masala-puri.jpg" alt="Masala Puri" width="820" height="820" loading="lazy"><figcaption><b>Masala Puri</b><span class="kn">ಮಸಾಲಾ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/bhel-puri.jpg" alt="Bhel Puri" width="820" height="820" loading="lazy"><figcaption><b>Bhel Puri</b><span class="kn">ಭೇಲ್ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/sev-puri.jpg" alt="Sev Puri" width="820" height="820" loading="lazy"><figcaption><b>Sev Puri</b><span class="kn">ಸೇವ್ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><span class="sig">★ Signature</span><img src="assets/dahi-puri.jpg" alt="Dahi Puri" width="820" height="820" loading="lazy"><figcaption><b>Dahi Puri</b><span class="kn">ದಹಿ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/tikki-puri.jpg" alt="Tikki Puri" width="820" height="820" loading="lazy"><figcaption><b>Tikki Puri</b><span class="kn">ಟಿಕ್ಕಿ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/aloo-puri.jpg" alt="Aloo Puri" width="820" height="820" loading="lazy"><figcaption><b>Aloo Puri</b><span class="kn">ಆಲೂ ಪೂರಿ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/papdi-chaat.jpg" alt="Papdi Chaat" width="820" height="820" loading="lazy"><figcaption><b>Papdi Chaat</b><span class="kn">ಪಾಪ್ಡಿ ಚಾಟ್</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/ragda-pattice.jpg" alt="Ragda Pattice" width="820" height="820" loading="lazy"><figcaption><b>Ragda Pattice</b><span class="kn">ರಗ್ಡಾ ಪ್ಯಾಟೀಸ್</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/samosa-masala.jpg" alt="Samosa Masala" width="820" height="820" loading="lazy"><figcaption><b>Samosa Masala</b><span class="kn">ಸಮೋಸಾ ಮಸಾಲಾ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/samosa.jpg" alt="Samosa" width="820" height="820" loading="lazy"><figcaption><b>Samosa</b><span class="kn">ಸಮೋಸಾ</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/nippat-masala.jpg" alt="Crazy Masala Chaat" width="820" height="820" loading="lazy"><figcaption><b>Crazy Masala Chaat</b><span class="kn">ಕ್ರೇಜಿ ಮಸಾಲಾ ಚಾಟ್</span></figcaption></figure>
-    <figure class="dish reveal"><img src="assets/tomato-chaat.jpg" alt="Tomato Chaat" width="820" height="820" loading="lazy"><figcaption><b>Tomato Chaat</b><span class="kn">ಟೊಮೇಟೊ ಚಾಟ್</span></figcaption></figure>
+    <figure class="dish reveal"><span class="sig">★ Signature</span><picture><source type="image/webp" srcset="assets/pani-puri.webp"><img src="assets/pani-puri.jpg" alt="Pani Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Pani Puri</b><span class="kn">ಪಾನಿ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><span class="sig">★ Signature</span><picture><source type="image/webp" srcset="assets/masala-puri.webp"><img src="assets/masala-puri.jpg" alt="Masala Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Masala Puri</b><span class="kn">ಮಸಾಲಾ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/bhel-puri.webp"><img src="assets/bhel-puri.jpg" alt="Bhel Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Bhel Puri</b><span class="kn">ಭೇಲ್ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/sev-puri.webp"><img src="assets/sev-puri.jpg" alt="Sev Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Sev Puri</b><span class="kn">ಸೇವ್ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><span class="sig">★ Signature</span><picture><source type="image/webp" srcset="assets/dahi-puri.webp"><img src="assets/dahi-puri.jpg" alt="Dahi Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Dahi Puri</b><span class="kn">ದಹಿ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/tikki-puri.webp"><img src="assets/tikki-puri.jpg" alt="Tikki Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Tikki Puri</b><span class="kn">ಟಿಕ್ಕಿ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/aloo-puri.webp"><img src="assets/aloo-puri.jpg" alt="Aloo Puri" width="820" height="820" loading="lazy"></picture><figcaption><b>Aloo Puri</b><span class="kn">ಆಲೂ ಪೂರಿ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/papdi-chaat.webp"><img src="assets/papdi-chaat.jpg" alt="Papdi Chaat" width="820" height="820" loading="lazy"></picture><figcaption><b>Papdi Chaat</b><span class="kn">ಪಾಪ್ಡಿ ಚಾಟ್</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/ragda-pattice.webp"><img src="assets/ragda-pattice.jpg" alt="Ragda Pattice" width="820" height="820" loading="lazy"></picture><figcaption><b>Ragda Pattice</b><span class="kn">ರಗ್ಡಾ ಪ್ಯಾಟೀಸ್</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/samosa-masala.webp"><img src="assets/samosa-masala.jpg" alt="Samosa Masala" width="820" height="820" loading="lazy"></picture><figcaption><b>Samosa Masala</b><span class="kn">ಸಮೋಸಾ ಮಸಾಲಾ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/samosa.webp"><img src="assets/samosa.jpg" alt="Samosa" width="820" height="820" loading="lazy"></picture><figcaption><b>Samosa</b><span class="kn">ಸಮೋಸಾ</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/nippat-masala.webp"><img src="assets/nippat-masala.jpg" alt="Crazy Masala Chaat" width="820" height="820" loading="lazy"></picture><figcaption><b>Crazy Masala Chaat</b><span class="kn">ಕ್ರೇಜಿ ಮಸಾಲಾ ಚಾಟ್</span></figcaption></figure>
+    <figure class="dish reveal"><picture><source type="image/webp" srcset="assets/tomato-chaat.webp"><img src="assets/tomato-chaat.jpg" alt="Tomato Chaat" width="820" height="820" loading="lazy"></picture><figcaption><b>Tomato Chaat</b><span class="kn">ಟೊಮೇಟೊ ಚಾಟ್</span></figcaption></figure>
   </div>
 </div></section>
 
@@ -392,6 +404,32 @@
   </div>
 </div></section>
 
+<!-- FAQ -->
+<section class="paper" id="faq" style="padding-top:8px"><div class="wrap">
+  <style>
+    #faq details{background:#fff;border:1px solid var(--cream2);border-radius:14px;margin-bottom:12px;padding:0 18px;box-shadow:0 6px 16px rgba(58,16,10,.08)}
+    #faq summary{cursor:pointer;font-weight:800;color:var(--maroon);padding:15px 0;font-size:16.5px;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+    #faq summary::-webkit-details-marker{display:none}
+    #faq summary::after{content:"+";color:var(--gold-deep);font-size:24px;line-height:1;flex-shrink:0}
+    #faq details[open] summary::after{content:"–"}
+    #faq details p{padding:0 0 16px;color:var(--ink);line-height:1.65;font-size:15.5px}
+  </style>
+  <div class="sec-head reveal">
+    <span class="eyebrow">Good to Know</span>
+    <h2><span class="kn" lang="kn">ಪ್ರಶ್ನೆಗಳು</span> · Frequently Asked Questions</h2>
+    <div class="orn"></div>
+  </div>
+  <div class="reveal" style="max-width:760px;margin:0 auto">
+    <details open><summary>Where is Sri Lakshmi Venkateshwara Chats Centre located?</summary><p>We're on <b>1st G Main Road, Mariyappana Palya, Bengaluru 560021</b> — opposite the Atal Bihari Vajpayee Badminton Centre and a short walk from Gayathri Devi Park, near Mahakavi Kuvempu (MKK) Road. See the map above for step-by-step walking directions.</p></details>
+    <details><summary>What are your opening hours?</summary><p>We're open <b>every day, 4:00 PM to 10:00 PM</b>.</p></details>
+    <details><summary>Do you have seating / dine-in space?</summary><p>Yes — our new location has <b>spacious seating</b>, so you can sit back and enjoy your chaats with family and friends.</p></details>
+    <details><summary>What are your must-try chaats?</summary><p>Our signatures are <b>pani puri</b> (gol gappa), <b>masala puri</b> and <b>dahi puri</b>. We also make bhel puri, sev puri, papdi chaat, ragda pattice, samosa masala, aloo puri, tikki puri, crazy masala chaat and tomato chaat — all made fresh to order.</p></details>
+    <details><summary>Is the food freshly made and vegetarian?</summary><p>Yes. Every plate is <b>vegetarian</b> and <b>made fresh to order</b> in a clean, hygienic setup — which is why most of our customers have been regulars for over 6 years.</p></details>
+    <details><summary>How can I pay? Do you accept UPI &amp; Google Pay?</summary><p>We accept <b>cash, UPI and Google Pay</b> — quick and easy.</p></details>
+    <details><summary>Can I order by phone or WhatsApp?</summary><p>Yes — <b>call or WhatsApp 90363 79288</b> to order for takeaway or ask anything. We're a fresh dine-in &amp; takeaway chaat spot.</p></details>
+  </div>
+</div></section>
+
 <!-- FOOTER -->
 <footer>
   <svg class="toran flip" width="100%" height="54" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="100%" height="54" fill="url(#tor)"/></svg>
@@ -402,7 +440,7 @@
       <a class="btn btn-call" href="tel:+919036379288">📞 Call</a>
       <a class="btn btn-wa" href="https://wa.me/919036379288" target="_blank" rel="noopener">💬 WhatsApp</a>
     </div>
-    <small>1st G Main Road, Mariyappana Palya (opposite Atal Bihari Vajpayee Badminton Centre), Bengaluru, Karnataka · 📞 90363 79288<br>© Sri Lakshmi Venkateshwara Chats Centre · Owner: Devaraju V</small>
+    <small>1st G Main Road, Mariyappana Palya (opposite Atal Bihari Vajpayee Badminton Centre), Bengaluru, Karnataka 560021 · 📞 90363 79288<br>© Sri Lakshmi Venkateshwara Chats Centre · Owner: Devaraju V</small>
     <div class="legal-links">
       <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a> · <a href="#" data-cookie-settings>Cookie Settings</a>
     </div>
