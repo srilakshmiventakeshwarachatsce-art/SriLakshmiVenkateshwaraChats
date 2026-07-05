@@ -71,6 +71,7 @@
     <text x="0" y="35" text-anchor="middle" font-size="28" fill="#4a1010" letter-spacing="2" font-weight="800">CHATS CENTRE</text>
   </g>
   <text x="300" y="470" text-anchor="middle" font-size="24" fill="#ffcf6b" font-family="'Trebuchet MS',Arial,sans-serif" letter-spacing="2">Fresh &amp; Tasty Chaats</text>
+  <text x="300" y="506" text-anchor="middle" font-size="21" fill="#ffe27a" font-family="'Trebuchet MS',Arial,sans-serif" letter-spacing="4" font-weight="700">★ SINCE 1969 ★</text>
 </svg>
   <line x1="150" y1="360" x2="1050" y2="360" stroke="#ffb627" stroke-width="3" stroke-opacity="0.5"/>
 
