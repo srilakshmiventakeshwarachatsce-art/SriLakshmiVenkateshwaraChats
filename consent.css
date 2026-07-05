@@ -1,0 +1,32 @@
+/* Shared brand tokens + cookie-consent banner + legal page base.
+   Loaded by index.html, privacy.html, terms.html. */
+:root{
+  --maroon:#4a1010; --maroon-deep:#360a0a; --maroon-2:#5a1414;
+  --gold:#ffb627; --gold-lite:#ffd447; --cream:#fff6e6; --cream-2:#fdeccb;
+  --green:#2f9e44; --green-deep:#237a37; --ink:#2a1207;
+  --shadow:0 10px 30px rgba(74,16,16,.18);
+}
+
+/* ---- Cookie consent banner ---- */
+#cookie-consent{position:fixed;left:0;right:0;bottom:0;z-index:9999;background:var(--maroon-deep);color:var(--cream);box-shadow:0 -6px 24px rgba(0,0,0,.35);border-top:3px solid var(--gold)}
+#cookie-consent[hidden]{display:none}
+#cookie-consent .cc-inner{max-width:960px;margin:0 auto;padding:16px 18px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+#cookie-consent .cc-text{font-size:14px;line-height:1.5;flex:1;min-width:240px;margin:0}
+#cookie-consent .cc-text a{color:var(--gold-lite);text-decoration:underline}
+#cookie-consent .cc-btns{display:flex;gap:10px;flex-wrap:wrap}
+#cookie-consent .cc-btn{font-weight:700;font-size:14px;padding:11px 18px;border-radius:10px;border:0;cursor:pointer}
+#cookie-consent .cc-primary{background:var(--gold);color:var(--maroon-deep)}
+#cookie-consent .cc-ghost{background:transparent;color:var(--cream);border:1.5px solid rgba(255,246,230,.4)}
+#cookie-consent .cc-btn:focus-visible{outline:3px solid var(--gold-lite);outline-offset:2px}
+
+/* ---- Consent-gated map placeholder ---- */
+[data-map]{position:relative}
+.map-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;min-height:260px;padding:20px;background:#f3e6c9;border:1px dashed #d9bf86;border-radius:14px;color:#6b4f27}
+.map-ph p{margin:0;font-size:14px;max-width:340px}
+.map-load-btn{background:var(--green);color:#fff;font-weight:700;border:0;border-radius:10px;padding:11px 20px;cursor:pointer;font-size:15px}
+.map-load-btn:hover{background:var(--green-deep)}
+
+/* ---- Footer legal links (used across pages) ---- */
+.legal-links{margin-top:14px;font-size:13px;opacity:.85;line-height:1.9}
+.legal-links a{color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(255,246,230,.35)}
+.legal-links a:hover{color:var(--gold-lite)}

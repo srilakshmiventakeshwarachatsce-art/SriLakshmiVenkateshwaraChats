@@ -1,0 +1,16 @@
+{
+  "name": "Sri Lakshmi Venkateshwara Chats Centre",
+  "short_name": "SLV Chats",
+  "description": "Fresh & tasty chaats in Mariyappana Palya, Bengaluru — pani puri, masala puri, dahi puri and more.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#4a1010",
+  "theme_color": "#4a1010",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
