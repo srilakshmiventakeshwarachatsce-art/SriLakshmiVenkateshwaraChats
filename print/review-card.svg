@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" width="600" height="850" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif">
+  <!-- ===== "Scan & Review us on Google" counter card. Print A6/A5 portrait. QR is a PLACEHOLDER until the Google review link is provided. ===== -->
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a1414"/><stop offset="0.55" stop-color="#4a1010"/><stop offset="1" stop-color="#360a0a"/></linearGradient>
+    <linearGradient id="rgold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#f6941d"/></linearGradient>
+  </defs>
+
+  <rect width="600" height="850" fill="url(#rbg)"/>
+  <rect x="24" y="24" width="552" height="802" rx="24" fill="none" stroke="url(#rgold)" stroke-width="5"/>
+
+  <!-- brand mark -->
+  <g transform="translate(300 96)">
+    <circle r="42" fill="#360a0a"/><circle r="40" fill="#4a1010"/><circle r="41" fill="none" stroke="url(#rgold)" stroke-width="3"/>
+    <ellipse cx="0" cy="12" rx="26" ry="10" fill="#2f9e44"/>
+    <g stroke="#b5761f" stroke-width="2"><circle cx="-13" cy="2" r="11" fill="#e7a54e"/><circle cx="13" cy="2" r="11" fill="#e7a54e"/><circle cx="0" cy="-3" r="12" fill="#eaa94f"/></g>
+    <circle cx="0" cy="-14" r="4" fill="#e63914"/>
+  </g>
+  <text x="300" y="168" text-anchor="middle" font-size="20" fill="#ffcf6b" letter-spacing="3" font-family="'Trebuchet MS',Arial,sans-serif">★ SINCE 1969 ★</text>
+
+  <!-- headline -->
+  <text x="300" y="228" text-anchor="middle" font-size="42" fill="#fff6e6">Loved your chaats?</text>
+  <text x="300" y="286" text-anchor="middle" font-size="58" fill="#ffd447" letter-spacing="6">★ ★ ★ ★ ★</text>
+  <text x="300" y="336" text-anchor="middle" font-size="30" fill="#fff6e6" font-family="'Trebuchet MS',Arial,sans-serif">Scan to rate &amp; review us on</text>
+  <!-- Google wordmark -->
+  <text x="300" y="384" text-anchor="middle" font-size="46" font-weight="800" font-family="Arial,sans-serif">
+    <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
+  </text>
+
+  <!-- QR placeholder -->
+  <rect x="170" y="420" width="260" height="260" rx="18" fill="#fff6e6"/>
+  <g fill="#4a1010">
+    <rect x="196" y="446" width="52" height="52"/><rect x="352" y="446" width="52" height="52"/><rect x="196" y="602" width="52" height="52"/>
+    <rect x="210" y="460" width="24" height="24" fill="#fff6e6"/><rect x="366" y="460" width="24" height="24" fill="#fff6e6"/><rect x="210" y="616" width="24" height="24" fill="#fff6e6"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" font-size="17" fill="#9a7b52" font-family="Arial,sans-serif">Google review QR</text>
+  <text x="300" y="582" text-anchor="middle" font-size="13" fill="#b79a6f" font-family="Arial,sans-serif">(added once your listing is live)</text>
+
+  <!-- footer -->
+  <text x="300" y="726" text-anchor="middle" font-size="24" fill="#ffd447" font-family="'Trebuchet MS',Arial,sans-serif">⏱️ It takes just 20 seconds · 🙏 Thank you!</text>
+  <text x="300" y="762" text-anchor="middle" font-size="22" fill="#ffcf6b" font-family="'Noto Sans Kannada','Kannada Sangam MN',sans-serif">ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿ · ೨೦ ಸೆಕೆಂಡ್</text>
+  <line x1="120" y1="786" x2="480" y2="786" stroke="#ffb627" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="300" y="812" text-anchor="middle" font-size="19" fill="#fff6e6" font-family="Arial,sans-serif">Sri Lakshmi Venkateshwara Chats Centre · 📞 90363 79288</text>
+</svg>
